@@ -1,0 +1,22 @@
+$(document).ready(function(){
+    $('.movie').fancybox({
+    	beforeShow: function () {
+			$.fancybox.wrap.bind( "contextmenu", function(e) {
+				alert('TESTS');
+	    		return false;
+			});
+			document.oncontextmenu = function() {return false;};
+		},
+        maxWidth  : 640,
+        maxHeight  : 370,
+        fitToView  : false,
+        width    : '90%',
+        height    : '90%',
+        autoSize  : false,
+        closeClick  : false,
+        openEffect  : 'none',
+        closeEffect  : 'none'
+    });
+    
+});
+</script>
