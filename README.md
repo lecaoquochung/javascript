@@ -32,3 +32,23 @@ element.nextSibling - returns the next node at the same node tree level;
 element.previousSibling - returns the previous node at the same node tree level;
 element.parentNode - returns the parent node of an element;
 ```
+
+## Working with DOM
+```
+Element nodes have attributes that you can get and set.
+element.getAttribute(attribute) - returns the specified attribute value of an element node.
+element.setAttribute(attribute, value) - sets or changes the specified attribute to the specified value.
+
+Use the following methods to create new nodes.
+element.cloneNode() - clones an element and returns the resulting node.
+document.createElement(element) creates a new element node. 
+document.createTextNode(text) creates a new text node.
+
+These methods create new nodes, to which you can apply the DOM methods, but they don't appear in the document yet.
+
+To add or remove nodes in a document:
+element.removeChild(oldNode) - removes a child node from an element.
+element.appendChild(newNode) - adds a new child node to an element, as the last child node;
+element.insertBefore(node1, node2) - inserts node1 as a child, before node2;
+element.replaceChild(newNode, oldNode) - replaces oldNode with newNode. 
+```
