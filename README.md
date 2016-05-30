@@ -3,4 +3,4 @@
 
 # Syntax
 - document.write("Hello World");
-- <script language="javascript" type="text/javascript"><script>
+- <script language="javascript" type="text/javascript"><script> 
