@@ -52,3 +52,23 @@ element.appendChild(newNode) - adds a new child node to an element, as the last 
 element.insertBefore(node1, node2) - inserts node1 as a child, before node2;
 element.replaceChild(newNode, oldNode) - replaces oldNode with newNode. 
 ```
+
+# Event
+```
+The addEventListener() method attaches an event handler to an element without overwriting existing event handlers.
+You can add many event handlers to one element.
+You can add many event handlers of the same type to one element, i.e., two "click" events.
+element.addEventListener(event, function, useCapture);
+```
+element.addEventListener("click", myFunction);
+element.addEventListener("mouseover", myFunction);
+
+function myFunction() {
+  alert("Hello World!");
+}
+```
+
+```
+
+# AJAX (Asynchronous JavaScript and XML)
+- XHR: XML HTTP Request API
