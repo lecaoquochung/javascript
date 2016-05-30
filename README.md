@@ -7,3 +7,7 @@
 ```
 <script language="javascript" type="text/javascript"><script> 
 ```
+- External
+```
+ <script src="external.js"></script>
+```
