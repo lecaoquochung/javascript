@@ -72,3 +72,21 @@ function myFunction() {
 
 # AJAX (Asynchronous JavaScript and XML)
 - XHR: XML HTTP Request API
+
+# JSON
+- JSON Syntax Rules
+ - Data is in name/value pairs;
+ - Data is separated by commas;
+ - Curly braces hold objects;
+ - Square brackets hold arrays;
+
+- Example
+```
+{
+"people":[
+  {"name":"John", "age":"21"}, 
+  {"name":"Amy", "age":"37"},
+  {"name":"David", "age":"42"}
+]
+}
+```
