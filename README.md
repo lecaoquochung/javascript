@@ -3,4 +3,7 @@
 
 # Syntax
 - document.write("Hello World");
-- <script language="javascript" type="text/javascript"><script> 
+- script tag attribute
+```
+<script language="javascript" type="text/javascript"><script> 
+```
