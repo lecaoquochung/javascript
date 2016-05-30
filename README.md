@@ -90,3 +90,8 @@ function myFunction() {
 ]
 }
 ```
+
+- Parse JSON
+```
+var obj = JSON.parse(text);
+```
